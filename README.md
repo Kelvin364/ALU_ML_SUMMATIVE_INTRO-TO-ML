@@ -20,7 +20,7 @@ A comprehensive comparative study evaluating traditional machine learning and de
 
 ---
 
-## 📊 Key Findings
+##  Key Findings
 
 | Approach | Best Model | Accuracy | Precision | Recall | F1-Score | Training Time |
 |----------|-----------|----------|-----------|--------|----------|---------------|
@@ -31,7 +31,7 @@ A comprehensive comparative study evaluating traditional machine learning and de
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### Traditional Machine Learning (7 Models)
 - **Feature Extraction:** HOG, LBP, GLCM, Statistical Features (373 dimensions)
@@ -66,7 +66,7 @@ pip install tensorflow scikit-learn scikit-image opencv-python pandas numpy matp
 5. Total execution time: ~50 minutes (with GPU) or ~2 hours (CPU only)
 
 
-## 📈 Results Summary
+##  Results Summary
 
 ### Traditional ML Performance
 - **Best:** SVM-RBF (98.34% accuracy, 31.6s training)
@@ -96,7 +96,7 @@ pip install tensorflow scikit-learn scikit-image opencv-python pandas numpy matp
 - State-of-the-art accuracy (98.34%)
 
 ### For Research Hospitals
-✅ **Consider Deep Learning (CNN + Dropout)**
+ **Consider Deep Learning (CNN + Dropout)**
 - Requires GPU infrastructure
 - End-to-end learning (no feature engineering)
 - Extensible to multi-task platforms
@@ -110,7 +110,7 @@ pip install tensorflow scikit-learn scikit-image opencv-python pandas numpy matp
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Dataset: Kermany et al., Kaggle Chest X-ray Pneumonia Dataset
 - Computational resources: Google Colab
